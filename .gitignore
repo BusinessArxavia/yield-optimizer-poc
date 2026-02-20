@@ -1,0 +1,37 @@
+# dependencies
+node_modules
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# eslint
+.eslintcache
+
+# misc
+.DS_Store
+
+# IDE
+.vscode
+.idea
+
+# cli
+dist
+
+# bun
+bun.lock
+
+# large reference dumps
+cre-docs.txt
+
+# CRE build artifacts
+packages/cre-workflow/**/.cre_build_tmp.*
+packages/cre-workflow/**/.env
+
+# PDF exports
+docs/*.pdf
+generate_pdf.py

@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "paths": {
+      "@yield-optimizer/shared": ["../shared/src/index.ts"],
+      "@yield-optimizer/monitor": ["../monitor/src/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "references": [{ "path": "../shared" }, { "path": "../monitor" }]
+}

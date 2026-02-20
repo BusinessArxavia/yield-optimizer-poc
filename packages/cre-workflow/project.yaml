@@ -1,0 +1,13 @@
+staging-settings:
+  rpcs:
+    - chain-name: ethereum-testnet-sepolia-base-1
+      url: $BASE_SEPOLIA_RPC_URL
+    - chain-name: ethereum-testnet-sepolia-arbitrum-1
+      url: $ARBITRUM_SEPOLIA_RPC_URL
+
+production-settings:
+  rpcs:
+    - chain-name: ethereum-mainnet-base-1
+      url: https://mainnet.base.org
+    - chain-name: ethereum-mainnet-arbitrum-1
+      url: https://arb1.arbitrum.io/rpc

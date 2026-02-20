@@ -1,0 +1,7 @@
+{
+  "name": "cre-workflow",
+  "private": true,
+  "dependencies": {
+    "viem": "^2.47.0"
+  }
+}

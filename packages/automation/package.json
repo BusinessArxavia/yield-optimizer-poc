@@ -1,0 +1,23 @@
+{
+  "name": "@yield-optimizer/automation",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@yield-optimizer/monitor": "workspace:*",
+    "@yield-optimizer/shared": "workspace:*",
+    "dotenv": "^16.0.0",
+    "viem": "2.46.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.8.2",
+    "vitest": "^3.0.0"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@yield-optimizer/shared",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@bgd-labs/aave-address-book": "4.44.22",
+    "viem": "2.46.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}

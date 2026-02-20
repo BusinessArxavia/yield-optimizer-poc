@@ -1,0 +1,77 @@
+{
+  "transactions": [
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000001",
+      "transactionType": "CREATE",
+      "contractName": "CircuitBreaker",
+      "contractAddress": "0x68fcdea702aab6b006325f48c4b3d2fbac86be7f",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000002",
+      "transactionType": "CREATE",
+      "contractName": "YieldVault",
+      "contractAddress": "0x601f653c1f8940246fecebcb9def8e6322c35570",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000003",
+      "transactionType": "CREATE",
+      "contractName": "VaultGateway",
+      "contractAddress": "0xdc8a5959cb1aeb3937b819924271381a1cc9cc78",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000004",
+      "transactionType": "CREATE",
+      "contractName": "RewardHarvester",
+      "contractAddress": "0x6aa643dfd56f3de2372671879752464e15e466c3",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000005",
+      "transactionType": "CREATE",
+      "contractName": "YieldKeeper",
+      "contractAddress": "0x5143cbb3d38227bdf6f039f9a1410dde30fce338",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    },
+    {
+      "hash": "0x0000000000000000000000000000000000000000000000000000000000000006",
+      "transactionType": "CREATE",
+      "contractName": "DeadManSwitch",
+      "contractAddress": "0x23c088ec7598549dfc1107f52a619f99466a4b45",
+      "function": null,
+      "arguments": [],
+      "transaction": { "from": "0x16ff6709177916bf7549239336f4f9ad8f0d2ea8" },
+      "additionalContracts": [],
+      "isFixedGasLimit": false
+    }
+  ],
+  "receipts": [],
+  "libraries": [],
+  "pending": [],
+  "returns": {},
+  "timestamp": 1774000000,
+  "chain": 84532,
+  "commit": "current"
+}

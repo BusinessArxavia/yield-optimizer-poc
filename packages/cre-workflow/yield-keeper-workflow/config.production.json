@@ -1,0 +1,32 @@
+{
+  "schedule": "0 */5 * * * *",
+  "evm": {
+    "chainName": "ethereum-mainnet-base-1",
+    "vaultAddress": "0x0000000000000000000000000000000000000000",
+    "controllerAddress": "0x0000000000000000000000000000000000000000",
+    "circuitBreakerAddress": "0x0000000000000000000000000000000000000000",
+    "consumerAddress": "0x0000000000000000000000000000000000000000",
+    "assetAddress": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+    "gasLimit": "500000",
+    "aavePoolAddress": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5"
+  },
+  "crossChains": [
+    {
+      "chainName": "ethereum-mainnet-arbitrum-1",
+      "chainSelector": "4949039107694359620",
+      "aavePoolAddress": "0x794a61358D6845594F94dc1DB02A252b5b4814aD",
+      "assetAddress": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+    }
+  ],
+  "defiLlamaPoolId": "825688c0-c694-4a6b-8497-177e425b7348",
+  "monitoring": {
+    "endpoint": "https://your-monitoring-endpoint.example.com/api/cre-events"
+  },
+  "minIdleSupplyAmount": "100000000",
+  "idleTargetBps": "500",
+  "harvestMinYieldBps": "50",
+  "harvestCooldown": "86400",
+  "minRotationSpreadBps": "100",
+  "rotationAmountBps": "2000",
+  "estimatedCostBps": "10"
+}
